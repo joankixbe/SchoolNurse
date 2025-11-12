@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Η πρώτη μου ιστοσελίδα</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Καλώς ήρθες στην ιστοσελίδα μου!</h1>
+  </header>
+
+  <main>
+    <p>Αυτή είναι μια απλή σελίδα φτιαγμένη με HTML, CSS και JS.</p>
+    <button onclick="sayHello()">Πάτα με!</button>
+  </main>
+
+  <footer>
+    <p>© 2025 Το όνομά μου</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
