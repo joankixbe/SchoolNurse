@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>SchoolNurse | Επικοινωνία</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>SchoolNurse</h1>
+    <nav>
+        <a href="index.html">Αρχική</a>
+        <a href="services.html">Υπηρεσίες</a>
+        <a href="contact.html" class="active">Επικοινωνία</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Επικοινωνήστε μαζί μας</h2>
+        <form id="contactForm">
+            <label>Ονοματεπώνυμο:</label>
+            <input type="text" required>
+            <label>Email:</label>
+            <input type="email" required>
+            <label>Μήνυμα:</label>
+            <textarea required></textarea>
+            <button type="submit">Αποστολή</button>
+        </form>
+        <p id="successMessage" class="hidden">Το μήνυμα στάλθηκε επιτυχώς!</p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 SchoolNurse</p>
+</footer>
+</body>
+</html>
