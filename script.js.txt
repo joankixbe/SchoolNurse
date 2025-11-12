@@ -1,0 +1,3 @@
+function sayHello() {
+  alert("Γεια σου! 👋");
+}
